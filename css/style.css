@@ -1,0 +1,147 @@
+body {
+    background: #DAF7F6;
+    color: #3B3B3B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+header {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 40px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #F16059;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+body {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+header img {
+    margin-right: 15px;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card {
+    margin: 20px 0;
+    overflow: auto;
+    box-sizing: border-box;
+
+}
+.image {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+.recipe {
+    float: left;
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+#cookies .image {
+    background: url("../img/gluten-free-sugar-cookies.jpg");
+    background-size: cover;
+}
+
+#pesto .image {
+    background: url("../img/nut-free-pesto.jpg");
+    background-size: cover;
+}
+
+#salad .image {
+    background: url("../img/watermelon-salad.jpg");
+    background-size: cover;
+}
+
+.recipe h2 {
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F16059;
+    margin-top: 0;
+}
+
+.time {
+    margin-bottom: 30px;
+    border: 5px #3B3B3B;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.prep, .cook, .total {
+    float: left;
+    padding: 6px 3px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-width: 1px 0.5px 1px 0.5px;
+    border-color: #3B3B3B;
+    border-style: solid;
+}
+
+article .card {
+    padding: 80px;
+    border: 25px #3B3B3B;
+    overflow: auto;
+
+}
+
+.prep img {
+    height: 8px;
+    padding-right: 3px;
+}
+
+.prep {
+    border-right: 1px solid #3B3B3B;
+    border-left: 1px solid #3B3B3B;
+}
+.cook img {
+    height: 10px;
+    padding-right: 3px;
+}
+
+.total img {
+    height: 11px;
+    padding-right: 3px;
+}
+
+.total {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+
+}
+
+
+.time {
+    margin-bottom: 30px;
+    border: 5px #3B3B3B;
+    overflow: auto;
+    box-sizing: border-box;
+}
+ .time-details {
+    display: inline;
+    width: 30.33%
+} 
