@@ -22,14 +22,14 @@ h1 {
     text-transform: uppercase;
 }
 
-/*h3 {
+h3 {
     font-size: 20px;
-} */
+} 
 
 
 
 header img {
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 main {
@@ -39,7 +39,7 @@ main {
 }
 
 .card {
-    margin: 20px 0;
+    margin: 25px 0;
    overflow: auto;
     /*box-sizing: border-box; */
 
@@ -74,7 +74,7 @@ main {
     background-size: cover;
 }
 
-/*.recipe h2 {
+.recipe h2 {
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
@@ -83,23 +83,52 @@ main {
 }
 
 .time {
-    margin-bottom: 30px;
-    border: 5px #3B3B3B;
+    margin-bottom: 20px;
+    border: 1px solid #3B3B3B;
     overflow: auto;
     box-sizing: border-box;
 }
 
-.prep, .cook, .total {
+.time div {
     float: left;
-    padding: 6px 3px;
+    padding-left: 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+/*.prep, .cook, .total {
+    float: left;
+    padding: 6px 3px; 
+   padding-left: 6px;
+   width: 33.33%;
     text-transform: uppercase;
     box-sizing: border-box;
     border-width: 1px 0.5px 1px 0.5px;
     border-color: #3B3B3B;
     border-style: solid;
+} */
+
+.time .cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
 }
 
-article .card {
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time strong {
+    font-family: Montserrrat, sans-serif;
+}
+
+/*article .card {
     padding: 80px;
     border: 25px #3B3B3B;
     overflow: auto;
@@ -107,8 +136,10 @@ article .card {
 }
 
 .prep img {
-    height: 8px;
+    height: 10px;
     padding-right: 3px;
+    padding-left: 5px;
+    vertical-align: middle;
 }
 
 .prep {
@@ -118,11 +149,15 @@ article .card {
 .cook img {
     height: 10px;
     padding-right: 3px;
+    padding-left: 5px;
+    vertical-align: middle;
 }
 
 .total img {
     height: 11px;
     padding-right: 3px;
+    padding-left: 5px;
+    vertical-align: middle;
 }
 
 .total {
@@ -130,15 +165,6 @@ article .card {
     border-right: 1px solid #3B3B3B;
 
 }
+*/
 
 
-.time {
-    margin-bottom: 30px;
-    border: 5px #3B3B3B;
-    overflow: auto;
-    box-sizing: border-box;
-}
- .time-details {
-    display: inline;
-    width: 30.33%
-} */
