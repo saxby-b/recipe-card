@@ -128,5 +128,43 @@ main {
     font-family: Montserrrat, sans-serif;
 }
 
+.columns {
+    overflow: auto;
+
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 5px;
+}
+
+.recipe h3 {
+    padding: 5px; 
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    font-family: Montserrrat, sans-serif;
+    color: #F16059;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ingredients ul {
+    padding-left: 5px;
+    line-height: 24px;
+    list-style-type: square;
+}
+
+.directions ol {
+    padding-left: 5px;
+    line-height: 22px;
+    
+}
+
 
 
