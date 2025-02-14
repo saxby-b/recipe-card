@@ -1,1 +1,1 @@
-Three recipe cards showcasing a healthy meal. 
+3 recipes for a healthy meal!
