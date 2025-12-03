@@ -1,1 +1,1 @@
-3 recipes for a healthy meal!
+3 recipes are included each on their own recipe card. Each recipe card lists the ingredients needed to make each dish. The recipe cards also include the directions and an image of the completed dish. 
