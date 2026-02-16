@@ -1,1 +1,1 @@
-3 recipes are included each on their own recipe card. Each recipe card lists the ingredients needed to make each dish. The recipe cards also include the directions and an image of the completed dish. 
+The infomration for the recipe cards are captured using HTML and then later styled using CSS. This ensures that the recipe cards maintain vital information while being nicely formatted into e-recipe cards.
